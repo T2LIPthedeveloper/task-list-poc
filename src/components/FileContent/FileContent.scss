@@ -1,0 +1,50 @@
+.item_img_container {
+  margin: 0 10px 10px;
+  .img_icon_container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0;
+    visibility: hidden;
+  }
+}
+
+.item_img_container:hover {
+  .img_icon_container {
+    visibility: visible;
+  }
+}
+
+.img_container {
+  min-width: 150px;
+  min-height: 150px;
+}
+
+.add_file_content {
+  max-width: 580px;
+  width: 100%;
+  padding: 10px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.add_button_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #495057;
+}
+
+.btn_container_add {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.todo_id_image {
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+  border: 1px solid #dee2e6;
+}

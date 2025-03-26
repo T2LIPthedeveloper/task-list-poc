@@ -1,0 +1,45 @@
+.project_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ced4da;
+}
+
+.project_name_text {
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #212529;
+}
+
+.btn_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search_container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 6px 12px;
+  border: 1px solid #dee2e6;
+  transition: all 0.2s ease;
+  
+  &:focus-within {
+    box-shadow: 0 0 0 2px rgba(73, 80, 87, 0.2);
+    border-color: #adb5bd;
+  }
+}
+
+.search_icon {
+  cursor: pointer;
+  color: #495057;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: #212529;
+  }
+}

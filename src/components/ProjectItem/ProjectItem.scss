@@ -1,0 +1,16 @@
+.project_item_container {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  color: #343a40;
+  border: 1px solid #ced4da;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  .project_name {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}

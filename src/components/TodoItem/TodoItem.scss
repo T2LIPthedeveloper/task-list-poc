@@ -1,0 +1,82 @@
+.todo_item_container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: small;
+  gap: 20px;
+  background: linear-gradient(to left top, #343a40, #495057);
+  color: #f8f9fa;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: grab;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  @media (max-width: 580px) {
+    width: 95%;
+  }
+}
+
+.title_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn_hidden {
+  visibility: hidden;
+}
+
+.buttons_section {
+  display: flex;
+  align-items: center;
+}
+
+.icon_container {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  span {
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    font-size: small;
+    color: #dee2e6;
+  }
+}
+
+.chbox_item {
+  width: 20px;
+  height: 20px;
+}
+
+.todo_number {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 20px;
+  color: #f8f9fa;
+}
+
+.todo_title {
+  display: inline-flex;
+  justify-content: flex-start;
+  font-size: 16;
+  font-weight: bold;
+  color: #f8f9fa;
+}
+
+.todo_description {
+  overflow: auto;
+  max-height: 100px;
+  text-overflow: ellipsis;
+  color: #e9ecef;
+}

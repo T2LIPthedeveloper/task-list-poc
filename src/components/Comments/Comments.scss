@@ -1,0 +1,94 @@
+.form_item_container {
+  width: 100%;
+}
+
+.comments_count {
+  margin-left: 5px;
+}
+
+.comments-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px !important;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 5px;
+  width: max-content;
+  font-weight: normal !important;
+  cursor: pointer;
+  color: #495057;
+}
+
+.comments-title:hover {
+  background-color: #adb5bd;
+  color: #212529;
+}
+
+.comments-container {
+  margin-top: 30px;
+}
+
+.comment-form-title {
+  font-size: 16px !important;
+  font-weight: normal !important;
+  color: #343a40;
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.comment-image-container {
+  margin-right: 12px;
+}
+
+.comment-image-container img {
+  border-radius: 50px;
+}
+
+.comment-right-part {
+  width: 100%;
+}
+
+.comment-content {
+  display: flex;
+}
+
+.comment-author {
+  margin-right: 8px;
+  font-size: 16px !important;
+  color: #343a40;
+}
+
+.comment-text {
+  font-size: 14px !important;
+  color: #495057;
+}
+
+.comment-actions {
+  display: flex;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  color: #6c757d;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.text_areas_container {
+  margin-top: 10px;
+}
+
+.comment-action {
+  margin-right: 8px;
+}
+
+.comment-action:hover {
+  text-decoration: underline;
+  color: #343a40;
+}
+
+.replies {
+  margin-top: 20px;
+}
